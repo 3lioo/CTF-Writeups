@@ -27,7 +27,7 @@ we convert the numbers to asci and we will get this string
 
     ZmxhZ3tFejN5XzJsaW5lc19jT2Rpbmd9
     
-  it is base64 so decode it you will get your flag 
+  it is base64 so decode it and you will get your flag 
 
     flag{Ez3y_2lines_cOding}
  
