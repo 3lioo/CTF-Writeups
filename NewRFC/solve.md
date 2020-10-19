@@ -16,6 +16,7 @@ I've recently contacted my friend whom solved it and it turns out to be so easy 
 so let's do it.
 
 look at your wireshark again and remember it is all about protocols 
+
 every packet has different protocol number so let's extract it all using tshark
 
     tshark -r classified.pcap -T fields -e ip.proto > flag
