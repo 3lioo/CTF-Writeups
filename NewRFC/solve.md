@@ -2,6 +2,7 @@
 
 # Description :  
 We have created a classified messaging protocol. reverse the protocol ;-).
+![link](https://github.com/3lioo/CTF-Writeups/blob/master/NewRFC/classified.pcap)
 ## Solution :
 we open the pcap file using wireshark and we get this
 ![](https://github.com/3lioo/CTF-Writeups/raw/master/NewRFC/2020-10-19_124543.png?raw=true)
@@ -17,7 +18,7 @@ every packet has different protocol number so let's extract it all using tshark
     tshark -r classified.pcap -T fields -e ip.proto > flag
   and we will get this numbers 
 
-![](https://github.com/3lioo/CTF-Writeups/raw/master/NewRFC/2020-10-19_124543.png?raw=true)
+![](https://github.com/3lioo/CTF-Writeups/blob/master/NewRFC/22.png?raw=true)
 
 we convert the numbers to asci and we will get this string 
   
