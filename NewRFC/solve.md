@@ -4,7 +4,7 @@
 We have created a classified messaging protocol. reverse the protocol ;-).
 ## Solution :
 we open the pcap file using wireshark and we get this
-[enter link description here](ads)
+[](https://github.com/3lioo/CTF-Writeups/blob/master/NewRFC/2020-10-19_124543.png)
 
 we can notice that every packet has different protocol so it have to be something about protocols but after reading a lot about wirshark, packets analyzing i couldn't find any thing useful then i have received some free hints and still have no idea WTF is reversing the protocols 
 so the CTF ended and i didn't solve it 
