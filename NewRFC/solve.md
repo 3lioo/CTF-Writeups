@@ -32,4 +32,4 @@ we convert the numbers to asci and we will get this string
 
     flag{Ez3y_2lines_cOding}
  
-![](https://github.com/3lioo/CTF-Writeups/blob/master/NewRFC/SYber_CTF_black_nobackground.png?raw=true)
+![](https://github.com/3lioo/CTF-Writeups/blob/master/NewRFC/Screenshot_2020-10-19%20SYber%20CTF.png?raw=true)
